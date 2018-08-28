@@ -1,11 +1,9 @@
 {
 	"name": "planet4-africa/planet4-africa",
-	"version": "0.0.1",
+	"version": "1.26.0",
 
 	"require": {
-		"greenpeace/planet4-child-theme" : "dev-develop",
-		"greenpeace/planet4-master-theme" : "dev-develop",
-		"greenpeace/planet4-plugin-blocks" : "dev-develop"
+		"greenpeace/planet4-child-theme" : "dev-develop"
 	},
 
 	"scripts": {
