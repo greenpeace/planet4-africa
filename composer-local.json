@@ -4,7 +4,8 @@
 	"license": "MIT",
 	"require": {
 		"greenpeace/planet4-child-theme-africa" : "0.*",
-		"greenpeace/planet4-plugin-migrated-urls": "0.0.1"
+		"greenpeace/planet4-plugin-migrated-urls": "0.0.1",
+		"wpackagist-plugin/timber-library": "1.9.4"
 	},
 
 	"scripts": {
