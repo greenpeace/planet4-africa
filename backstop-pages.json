@@ -4,25 +4,19 @@
       "label": "Planet4 Africa act page",
       "url": "https://APP_HOSTNAME/APP_HOSTPATH/en/act/",
       "delay": 3000,
-      "misMatchThreshold": 1
+      "misMatchThreshold" : 1.5
     },
     {
       "label": "Planet4 Africa explore page",
       "url": "https://APP_HOSTNAME/APP_HOSTPATH/en/explore/",
       "delay": 3000,
-      "misMatchThreshold": 1
+      "misMatchThreshold" : 1.5
     },
     {
       "label": "Planet4 Africa privacy and cookies page",
       "url": "https://APP_HOSTNAME/APP_HOSTPATH/en/privacy-and-cookies/",
       "delay": 3000,
-      "misMatchThreshold": 1
-    },
-    {
-      "label": "Planet4 Africa search page",
-      "url": "https://APP_HOSTNAME/APP_HOSTPATH/fr/?s=economie",
-      "delay": 3000,
-      "misMatchThreshold": 1
+      "misMatchThreshold" : 1.5
     }
   ]
 }
