@@ -3,9 +3,7 @@
 	"description": "Greenpeace P4 Africa",
 	"license": "MIT",
 	"require": {
-		"greenpeace/planet4-child-theme-africa" : "0.*",
-		"greenpeace/planet4-plugin-migrated-urls": "0.0.1",
-		"greenpeace/planet4-master-theme": "dev-planet-4523"
+		"greenpeace/planet4-child-theme-africa" : "0.*"
 	},
 
 	"scripts": {
