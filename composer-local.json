@@ -1,17 +1,17 @@
 {
-	"name": "planet4-africa/planet4-africa",
-	"description": "Greenpeace P4 Africa",
-	"license": "MIT",
-	"require": {
-		"greenpeace/planet4-child-theme-africa" : "0.*",
-		"plugins/sitepress-multilingual-cms": "*",
-		"plugins/wpml-translation-management": "*",
-		"plugins/wpml-string-translation": "*"
-	},
-	"scripts": {
-		"core:language": "wp language core install fr_CA",
-		"site:custom" : [
-			"@core:language"
-		]
-	}
+    "name": "planet4-africa/planet4-africa",
+    "description": "Greenpeace P4 Africa",
+    "license": "MIT",
+    "require": {
+        "greenpeace/planet4-child-theme-africa" : "0.*",
+        "plugins/sitepress-multilingual-cms": "*",
+        "plugins/wpml-translation-management": "*",
+        "plugins/wpml-string-translation": "*"
+    },
+    "scripts": {
+        "core:language": "wp language core install fr_CA",
+        "site:custom" : [
+            "@core:language"
+        ]
+    }
 }
