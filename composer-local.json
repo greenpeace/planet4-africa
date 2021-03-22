@@ -6,7 +6,8 @@
         "greenpeace/planet4-child-theme-africa" : "0.*",
         "plugins/sitepress-multilingual-cms": "*",
         "plugins/wpml-translation-management": "*",
-        "plugins/wpml-string-translation": "*"
+        "plugins/wpml-string-translation": "*",
+        "wpackagist-plugin/leadin": "7.*"
     },
     "scripts": {
         "core:language": "wp language core install fr_CA",
