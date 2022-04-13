@@ -7,8 +7,7 @@
     "plugins/sitepress-multilingual-cms": "*",
     "plugins/wpml-translation-management": "*",
     "plugins/wpml-string-translation": "*",
-    "wpackagist-plugin/advanced-custom-fields":"*",
-    "wpackagist-plugin/related-posts-by-taxonomy":"*"
+    "wpackagist-plugin/advanced-custom-fields":"*"
   },
   "scripts": {
     "core:language": "wp language core install fr_CA",
