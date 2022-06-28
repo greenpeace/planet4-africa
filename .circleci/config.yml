@@ -33,8 +33,6 @@ job_environments:
     HELM_RELEASE: planet4-africa
     WP_DB_NAME: planet4-africa_wordpress_develop
     WP_STATELESS_BUCKET: planet4-africa-stateless-develop
-    GIT_REF: wp-stateless-3.2.0
-    GIT_BRANCH: wp-stateless-3.2.0
   release_build_env: &release_build_env
     GOOGLE_PROJECT_ID: planet4-production
   release_environment: &release_environment
@@ -284,8 +282,6 @@ jobs:
 
   build-develop:
     <<: *defaults
-    docker:
-      - image: greenpeaceinternational/p4-builder:wp-stateless-32
     environment:
       <<: *common_environment
       <<: *develop_environment
@@ -299,8 +295,6 @@ jobs:
 
   deploy-develop:
     <<: *defaults
-    docker:
-      - image: greenpeaceinternational/p4-builder:wp-stateless-32
     environment:
       <<: *common_environment
       <<: *develop_environment
