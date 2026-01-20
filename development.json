@@ -1,5 +1,5 @@
 {
   "require": {
-    "wpackagist-plugin/wp-stateless":"4.1.3"
+    "greenpeace/planet4-master-theme" : "dev-upgrade-GF-Hubspot-add-on-theme"
   }
 }
